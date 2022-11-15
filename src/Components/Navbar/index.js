@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 import { HeaderIcon, mobileLogo } from "../../assets";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
           {/* <HeaderIcon/> */}
         </div>
 
-        <nav className={`${styles.navbarMoblie}  ${responsive ? styles.responsiveNav : ""}`}>
+        <nav className={`${styles.navbarMobile}  ${responsive ? styles.responsiveNav : ""}`}>
           <button className={styles.btnMobile}>Connect Wallet</button>
           <Link to="/">Home</Link>
           <Link to="/placetostay">Play to Stay</Link>

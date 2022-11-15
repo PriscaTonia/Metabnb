@@ -48,3 +48,155 @@ color: #434343;
     justify-content: space-between;
     cursor: pointer;
 }
+/* Tablet */
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .container {
+      padding: 43px 20px 0px 20px;
+    }
+    .navbar{
+      gap: 15px;
+    }
+    .navbar a{
+      font-size: 16px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 800px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+   
+    .navbarMobile a {
+      margin: 0px 2rem;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: "Red Rose", cursive;
+      font-weight: 400;
+      color: #ffffff;
+    }
+   
+    .navOpenBtn {
+      background: transparent;
+      outline: none;
+      border: none;
+      color: #a02279;
+      font-size: 2.5rem;
+      cursor: pointer;
+      display: flex;
+      width: 100%;
+      align-items:  center;
+    }
+    .navCloseBtn {
+      color: #ffffff;
+      background: transparent;
+      outline: none;
+      border: none;
+      font-size: 20px;
+      max-width: 100vw;
+      cursor: pointer;
+    }
+    .navbarMobile {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: #a02279;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      justify-content: center;
+      gap: 1.5rem;
+      transition: 1s;
+      transform: translateY(-100vh);
+      color: #ffffff;
+    }
+    .mobile .responsiveNav {
+      height: 100vh;
+      transform: none;
+    }
+    .btn{
+        width: 100%;
+    }
+  }
+  
+/* Mobile styles */
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      place-items: center;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+   
+    .navbarMobile a {
+      margin: 0px 2rem;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: "Red Rose", cursive;
+      font-weight: 400;
+      color: #ffffff;
+    }
+   
+    .navOpenBtn {
+      background: transparent;
+      outline: none;
+      border: none;
+      color: #434343;
+      font-size: 2.5rem;
+      cursor: pointer;
+      display: flex;
+      width: 100%;
+      align-items:  center;
+    }
+    .navCloseBtn {
+      color: #ffffff;
+      background: transparent;
+      outline: none;
+      border: none;
+      font-size: 20px;
+      max-width: 100vw;
+      cursor: pointer;
+    }
+    .navbarMobile {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: #a02279;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      justify-content: center;
+      gap: 1.5rem;
+      transition: 1s;
+      transform: translateY(-100vh);
+      color: #ffffff;
+    }
+    .mobile .responsiveNav {
+      height: 100vh;
+      transform: none;
+    }
+    .btn{
+        width: 100%;
+    } 
+  }
+  
