@@ -73,4 +73,8 @@ a {
   .sectionHeader {
     min-height: 20vh;
   }
+  .socials{
+    justify-content:space-between;
+    width: 30%;
+  }
 }
