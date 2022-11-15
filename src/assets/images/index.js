@@ -7,6 +7,6 @@ import fifth from "./fifth.png";
 import sixth from "./sixth.png";
 import seventh from "./seventh.png";
 import eighth from "./eighth.png";
-import DescImage from "./descImage.png";
+import descImage from "./descImage.png";
 
-export { bannerImage, first, DescImage, second, third, fourth, fifth, sixth, seventh, eighth };
+export { bannerImage, first, descImage, second, third, fourth, fifth, sixth, seventh, eighth };

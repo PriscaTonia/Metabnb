@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { MbToken, MetaMask, OpenSea } from "../../assets";
-import { DescImage } from "../../assets";
+import { descImage } from "../../assets";
 import { NFTcontainer } from "../NFTcontainer";
 
 const Home = () => {
@@ -42,7 +42,9 @@ const Home = () => {
                 <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
                 <button>Learn more</button>
             </div>
-           <img src={DescImage} alt="" />
+           <div className={styles.descImage}>
+            <img src={descImage} alt="" />
+           </div>
       </section>
 
       

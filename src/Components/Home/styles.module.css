@@ -85,7 +85,7 @@
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
 .cardCollection {
-  padding: 39px 100px 0px 100px;
+  padding: 39px 100px 53px 100px;
 }
 .cardCollection h2 {
   font-family: "Red Rose";
@@ -100,13 +100,14 @@
 
 .description {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 100px;
+  grid-template-columns: 37% 63%;
+  padding: 50px 100px;
+  min-height: 100vh;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
 }
 .desc {
-  height: 80%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -126,6 +127,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 35px;
+  text-align: justify;
   color: #fff;
 }
 .desc button {
@@ -143,7 +145,13 @@ font-size: 16px;
 line-height: 19px;
   cursor: pointer;
 }
-.description img {
+.description .descImage {
   display: flex;
-  justify-self: flex-end;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+}
+.descImage img{
+    width: 85%;
+    height: 100%;
 }
