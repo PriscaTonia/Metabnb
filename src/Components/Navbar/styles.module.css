@@ -45,9 +45,23 @@
   color: #ffffff;
 }
 
+
+/* Tablet */
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .container {
+    padding: 43px 20px 0px 20px;
+  }
+  .navbar{
+    gap: 15px;
+  }
+  .navbar a{
+    font-size: 16px;
+  }
+  
+}
 /* Mobile styles */
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 800px) {
   .desktop {
     display: none;
   }
