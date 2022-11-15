@@ -7,5 +7,6 @@ import { ReactComponent as FooterIcon } from "./footerIcon.svg";
 import { ReactComponent as Facebook } from "./facebook.svg";
 import { ReactComponent as Instagram } from "./instagram.svg";
 import { ReactComponent as Twitter } from "./twitter.svg";
+import { ReactComponent as Setting } from "./setting.svg";
 
-export { HeaderIcon, MbToken, MetaMask, OpenSea, Star, FooterIcon,Facebook, Instagram, Twitter };
+export { HeaderIcon, MbToken, MetaMask, OpenSea, Star, FooterIcon,Facebook, Instagram, Twitter, Setting };

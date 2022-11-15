@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 135px 100px 0px 100px;
+}
+
+.mobile, .desktop{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+.mobile{
+    display: none;
+}
+/* Navbar and Links styles */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+.navbar a{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #434343;
+}
+
+/* Button styles */
+.btn{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 161px;
+    padding: 15px 27px;
+    color: #434343;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}

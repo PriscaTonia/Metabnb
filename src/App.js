@@ -1,4 +1,4 @@
-import { Navbar, Home, Footer } from "./Components";
+import { Navbar, Home, Footer,PlaceToStay } from "./Components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -6,7 +6,15 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Home />
+        <Switch>
+          <Route exact path="/"> 
+            <Home />
+          </Route>
+          <Route exact path="/placetostay"> 
+            <PlaceToStay />
+          </Route>
+        </Switch>
+        
         <Footer />
       </div>
     </Router>
