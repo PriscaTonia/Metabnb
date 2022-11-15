@@ -73,12 +73,11 @@ a {
   .sectionHeader {
     min-height: 25vh;
   }
-  .socials{
-    justify-content:space-between;
+  .socials {
+    justify-content: space-between;
     width: 30%;
   }
 }
-
 
 /* Tablet */
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -93,8 +92,8 @@ a {
   .sectionHeader {
     min-height: 30vh;
   }
-  .socials{
-    justify-content:space-between;
+  .socials {
+    justify-content: space-between;
     width: 30%;
   }
   .sectionCommunity,

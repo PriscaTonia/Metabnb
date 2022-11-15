@@ -4,15 +4,15 @@ import { HeaderIcon, mobileLogo } from "../../assets";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar = ({showModal}) => {
- const [responsive, setResponsive] = useState(false)
+const Navbar = ({ showModal }) => {
+  const [responsive, setResponsive] = useState(false);
 
   const showNavBar = () => {
-    setResponsive(true)
+    setResponsive(true);
   };
 
   const hideNavBar = () => {
-    setResponsive(false)
+    setResponsive(false);
   };
 
   return (
@@ -27,19 +27,35 @@ const Navbar = ({showModal}) => {
           <Link to="/">NFTs</Link>
           <Link to="/">Community</Link>
         </nav>
-        <button onClick={showModal} className={styles.btn}>Connect Wallet</button>
+        <button onClick={showModal} className={styles.btn}>
+          Connect Wallet
+        </button>
       </div>
       <div className={styles.mobile}>
         <div className={styles.logo}>
           <img src={mobileLogo} alt="" />
         </div>
 
-        <nav className={`${styles.navbarMobile}  ${responsive ? styles.responsiveNav : ""}`}>
-          <button onClick={showModal} className={styles.btnMobile}>Connect Wallet</button>
-          <Link to="/">Home</Link>
-          <Link to="/placetostay">Play to Stay</Link>
-          <Link to="/">NFTs</Link>
-          <Link to="/">Community</Link>
+        <nav
+          className={`${styles.navbarMobile}  ${
+            responsive ? styles.responsiveNav : ""
+          }`}
+        >
+          <button onClick={showModal} className={styles.btnMobile}>
+            Connect Wallet
+          </button>
+          <Link to="/" onClick={() => hideNavBar()}>
+            Home
+          </Link>
+          <Link to="/placetostay" onClick={() => hideNavBar()}>
+            Play to Stay
+          </Link>
+          <Link to="/" onClick={() => hideNavBar()}>
+            NFTs
+          </Link>
+          <Link to="/" onClick={() => hideNavBar()}>
+            Community
+          </Link>
           <button className={styles.navCloseBtn} onClick={() => hideNavBar()}>
             <FaTimes />
           </button>

@@ -17,7 +17,7 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0px;
   gap: 48px;
 }
@@ -45,19 +45,17 @@
   color: #ffffff;
 }
 
-
 /* Tablet */
 @media screen and (min-width: 801px) and (max-width: 1200px) {
   .container {
     padding: 43px 20px 0px 20px;
   }
-  .navbar{
+  .navbar {
     gap: 15px;
   }
-  .navbar a{
+  .navbar a {
     font-size: 16px;
   }
-  
 }
 
 /* Mobile styles */
@@ -79,11 +77,11 @@
     width: 100%;
     height: 40px;
     display: flex;
-    flex-wrap: wrap;
   }
   .logo img {
     width: 100%;
     height: 40px;
+    max-width: 200px;
     /* object-fit: cover; */
   }
   .navbarMobile a {
@@ -120,7 +118,7 @@
     cursor: pointer;
     display: flex;
     width: 100%;
-    align-items:  center;
+    align-items: center;
     justify-content: end;
   }
   .navCloseBtn {
@@ -144,7 +142,7 @@
     padding: 0;
     justify-content: center;
     gap: 1.5rem;
-    transition: 1s;
+    transition: 0.3s;
     transform: translateY(-100vh);
     color: #ffffff;
   }

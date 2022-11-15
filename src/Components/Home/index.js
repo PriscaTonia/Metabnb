@@ -30,29 +30,29 @@ const Home = () => {
       <section className={styles.brands}>
         <MbToken />
         <MetaMask />
-        <OpenSea/>
+        <OpenSea />
       </section>
 
       <section className={styles.cardCollection}>
         <h2>Inspiration for your next adventure</h2>
-        <NFTcontainer/>
+        <NFTcontainer />
       </section>
 
       <section className={styles.description}>
-            <div className={styles.desc}>
-                <h3>Metabnb NFTs</h3>
-                <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
-                <button>Learn more</button>
-            </div>
-           <div className={styles.descImage}>
-            <img src={descImage} alt="" />
-           </div>
+        <div className={styles.desc}>
+          <h3>Metabnb NFTs</h3>
+          <p>
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div className={styles.descImage}>
+          <img src={descImage} alt="" />
+        </div>
       </section>
-
-      
     </div>
-
-    
   );
 };
 

@@ -72,7 +72,7 @@
   background-repeat: no-repeat;
   background-position: top 0 right 0; */
 }
-.bannerImg img{
+.bannerImg img {
   width: 80%;
   height: 100%;
 }
@@ -143,11 +143,11 @@
   color: #a02279;
   padding: 14px 33px;
   max-width: 50%;
-font-family: 'Red Rose';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
   cursor: pointer;
 }
 .description .descImage {
@@ -156,88 +156,87 @@ line-height: 19px;
   width: 100%;
   height: 100%;
 }
-.descImage img{
-    width: 85%;
-    height: 100%;
+.descImage img {
+  width: 85%;
+  height: 100%;
 }
 
 /* Tablet Styles */
 @media screen and (min-width: 801px) and (max-width: 1200px) {
   .cardCollection {
-    padding:20px;
+    padding: 20px;
   }
-  .banner{
+  .banner {
     padding: 70px 20px;
   }
-  .descImage img{
+  .descImage img {
     width: 70%;
     min-height: 100%;
     padding-top: 30px;
-}
-.descImage{
-  display: flex;
-  justify-content: right;
-}
-.bannerImg img{
-  width: 90%;
-  height: 100%;
-}
-.bannerContent {
-  padding: 30px 0px 20px 0px;
-  width: 100%;
-  height: 100%;
-  min-height: 50vh;
- 
-}
-.bannerContent h1{
-  font-size: 36px;
-  line-height: 100%;
-  padding-bottom: 10px;
-}
-.bannerContent p{
-  padding-bottom: 10px;
-}
-.brands{
-  margin-top: 20px;
-  gap: 50px;
-  padding: 10px 20px;
-}
-.cardCollection h2 {
-  font-size: 35px;
-  line-height: 30px;
-}
-.description{
-  padding: 30px 20px;
-}
-.desc h3 {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  padding-bottom: 20px;
-}
-.desc p{
-  padding-bottom: 20px;
-  text-align: left;
-}
-.desc button{
-  max-width: 70%;
-}
-.descImage img{
-  width: 100%;
-  min-height: 100%;
-  padding-top: 30px;
-}
+  }
+  .descImage {
+    display: flex;
+    justify-content: right;
+  }
+  .bannerImg img {
+    width: 90%;
+    height: 100%;
+  }
+  .bannerContent {
+    padding: 30px 0px 20px 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+  }
+  .bannerContent h1 {
+    font-size: 36px;
+    line-height: 100%;
+    padding-bottom: 10px;
+  }
+  .bannerContent p {
+    padding-bottom: 10px;
+  }
+  .brands {
+    margin-top: 20px;
+    gap: 50px;
+    padding: 10px 20px;
+  }
+  .cardCollection h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .description {
+    padding: 30px 20px;
+  }
+  .desc h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+  .desc p {
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .desc button {
+    max-width: 70%;
+  }
+  .descImage img {
+    width: 100%;
+    min-height: 100%;
+    padding-top: 30px;
+  }
 }
 
 /* Mobile Styles */
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .banner {
-   display: flex;
-   flex-direction: column-reverse;
-   height: 100%;
-   padding: 70px 20px 0px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 70px 20px 0px 20px;
   }
-  .bannerImg img{
+  .bannerImg img {
     width: 100%;
     height: 100%;
   }
@@ -246,14 +245,13 @@ line-height: 19px;
     width: 100%;
     height: 100%;
     min-height: 50vh;
-   
   }
-  .bannerContent h1{
+  .bannerContent h1 {
     font-size: 36px;
     line-height: 100%;
     padding-bottom: 10px;
   }
-  .bannerContent p{
+  .bannerContent p {
     padding-bottom: 10px;
   }
   .brands {
@@ -266,10 +264,9 @@ line-height: 19px;
     gap: 30px;
   }
   .cardCollection {
-    padding:20px;
+    padding: 20px;
   }
   .cardCollection h2 {
-    
     font-size: 29px;
     line-height: 30px;
   }
@@ -285,18 +282,16 @@ line-height: 19px;
     line-height: 40px;
     padding-bottom: 20px;
   }
-  .desc p{
+  .desc p {
     padding-bottom: 20px;
     text-align: left;
   }
-  .desc button{
+  .desc button {
     max-width: 70%;
   }
-  .descImage img{
+  .descImage img {
     width: 100%;
     min-height: 100%;
     padding-top: 30px;
+  }
 }
-}
-
-
