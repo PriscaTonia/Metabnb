@@ -1,8 +1,39 @@
 .nftCard{
     width: 292px;
     height: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border: 1px solid #D7D7D7;
+border-radius: 15px;
 }
 img{
     width: 260px;
 height: 265px;
+}
+.sect1, .sect2, .rating{
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+}
+.sect1, .sect2, .rating{
+    justify-content: space-between;
+}
+.rating{
+    width: 35%;
+    align-self: start;
+    padding-left: 14px;
+}
+p{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+color: #434343;
+}
+.mbt{
+    font-weight: 700;
 }
