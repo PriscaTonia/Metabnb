@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { MbToken, MetaMask, OpenSea } from "../../assets";
+import { MbToken, MetaMask, OpenSea, bannerImage } from "../../assets";
 import { descImage } from "../../assets";
 import { NFTcontainer } from "../NFTcontainer";
 
@@ -22,7 +22,9 @@ const Home = () => {
             <button>Search</button>
           </div>
         </div>
-        <div className={styles.bannerImg}></div>
+        <div className={styles.bannerImg}>
+          <img src={bannerImage} alt="" />
+        </div>
       </div>
 
       <section className={styles.brands}>

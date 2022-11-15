@@ -16,5 +16,6 @@ import fourteenth from "./fourteenth.png";
 import fifteenth from "./fifteenth.png";
 import sixteenth from "./sixteenth.png";
 import descImage from "./descImage.png";
+import mobileLogo from "./mobileLogo.png";
 
-export { bannerImage, first, descImage, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth };
+export { bannerImage, first, descImage, mobileLogo, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth };

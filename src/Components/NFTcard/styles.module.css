@@ -16,7 +16,7 @@ height: 265px;
 .sect1, .sect2, .rating{
     display: flex;
     flex-direction: row;
-    width: 260px;
+    width: 250px;
 }
 .sect1, .sect2, .rating{
     justify-content: space-between;
