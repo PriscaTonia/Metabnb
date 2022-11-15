@@ -4,7 +4,7 @@ import { HeaderIcon, mobileLogo } from "../../assets";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({showModal}) => {
  const [responsive, setResponsive] = useState(false)
 
   const showNavBar = () => {
@@ -27,16 +27,15 @@ const Navbar = () => {
           <Link to="/">NFTs</Link>
           <Link to="/">Community</Link>
         </nav>
-        <button className={styles.btn}>Connect Wallet</button>
+        <button onClick={showModal} className={styles.btn}>Connect Wallet</button>
       </div>
       <div className={styles.mobile}>
         <div className={styles.logo}>
           <img src={mobileLogo} alt="" />
-          {/* <HeaderIcon/> */}
         </div>
 
         <nav className={`${styles.navbarMobile}  ${responsive ? styles.responsiveNav : ""}`}>
-          <button className={styles.btnMobile}>Connect Wallet</button>
+          <button onClick={showModal} className={styles.btnMobile}>Connect Wallet</button>
           <Link to="/">Home</Link>
           <Link to="/placetostay">Play to Stay</Link>
           <Link to="/">NFTs</Link>

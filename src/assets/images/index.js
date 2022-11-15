@@ -17,5 +17,7 @@ import fifteenth from "./fifteenth.png";
 import sixteenth from "./sixteenth.png";
 import descImage from "./descImage.png";
 import mobileLogo from "./mobileLogo.png";
+import metamask from "./metamask2.png";
+import walletconnect from "./walletconnect.png";
 
-export { bannerImage, first, descImage, mobileLogo, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth };
+export { bannerImage, metamask, walletconnect, first, descImage, mobileLogo, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth };
