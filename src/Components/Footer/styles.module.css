@@ -1,0 +1,50 @@
+.footer{
+    height: 332px;
+    background: #1D1D1E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 100px 65px 100px;
+}
+.socials{
+    display: flex;
+    width: 50%;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.sectionCommunity, .sectionPlaces, .sectionAbout{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-evenly;
+}
+.sectionHeader{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+h5{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+a{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+color: #F1F3F9;
+text-decoration: none;
+cursor: pointer;
+}
+.sectionHeader p{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+}

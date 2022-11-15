@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { MbToken, MetaMask, OpenSea } from "../../assets";
-import { DescImage } from "../../assets";
-// import { NFTcard } from "../NFTcard";
+import { DescImage, first } from "../../assets";
+import { NFTcard } from "../NFTcard";
 
 const Home = () => {
   return (
@@ -33,6 +33,7 @@ const Home = () => {
 
       <section className={styles.cardCollection}>
         <h2>Inspiration for your next adventure</h2>
+        <NFTcard image = {first} />
       </section>
 
       <section className={styles.description}>
@@ -43,6 +44,8 @@ const Home = () => {
             </div>
            <img src={DescImage} alt="" />
       </section>
+
+      
     </div>
 
     
