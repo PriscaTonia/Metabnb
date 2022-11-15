@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Banner styles */
+.banner {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  min-height: 90vh;
+  padding: 125px 100px 0px 100px;
+}
+
+/* Banner content */
+.bannerContent {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bannerContent h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  padding-top: 20px;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+.bannerContent span {
+  color: #a02279;
+  font-weight: 500;
+}
+.bannerContent p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+.search {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.search input {
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  padding: 20px;
+  outline: none;
+}
+.search button {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* image styles */
+.bannerImg {
+  height: 100%;
+  width: 100%;
+  background-color: palevioletred;
+  background: url(../../assets/images/bannerImg.png);
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+}
+
+/* Brands Section */
+.brands {
+  margin-top: 67px;
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px;
+  gap: 264px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+.cardCollection {
+  padding: 39px 100px 0px 100px;
+}
+.cardCollection h2 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 43px;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 100px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+}
+.desc {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.desc h3 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+}
+.desc p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #fff;
+}
+.desc button {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #a02279;
+  padding: 14px 33px;
+  max-width: 50%;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+  cursor: pointer;
+}
+.description img {
+  display: flex;
+  justify-self: flex-end;
+}

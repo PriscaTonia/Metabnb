@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 43px 100px 0px 100px;
+}
+
+.mobile, .desktop{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+.mobile{
+    display: none;
+}
+/* Navbar and Links styles */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #434343;
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+}
+
+/* Button styles */
+.btn{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 27px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}

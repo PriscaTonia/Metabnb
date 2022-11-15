@@ -1,9 +1,15 @@
+import {Navbar, Home} from './Components'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello Guys!</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar/>
+        <Home/>
+      </div>
+    </Router>
   );
 }
 
